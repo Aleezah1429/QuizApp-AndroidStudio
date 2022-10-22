@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".MainActivity"
+    >
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="128dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginBottom="441dp"
+        android:background="#00FFFFFF"
+        android:shadowColor="@color/black"
+        android:shadowDx="15"
+        android:shadowDy="15"
+        android:shadowRadius="15"
+        android:text="QUIZ APP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#039DDA"
+        android:textColorLink="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/login"
+        android:layout_width="130dp"
+        android:layout_height="59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="133dp"
+        android:layout_marginBottom="325dp"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#039DDA"
+        app:cornerRadius="20dp"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sign_up"
+        android:layout_width="128dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginBottom="248dp"
+        android:text="SIGNUP"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:backgroundTint="#039DDA"
+        app:cornerRadius="20dp" />
+
+
+</RelativeLayout>
